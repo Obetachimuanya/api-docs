@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  api2md:
+    build: .
+    container_name: api2md-converter
+    volumes:
+      - ./output:/app/output
+      - ./input:/app/input:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    
+  # Optional: Web UI service (if you want to add one later)
+  # web-ui:
+  #   build: ./web-ui
+  #   ports:
+  #     - "8080:8080"
+  #   depends_on:
+  #     - api2md
+  #   volumes:
+  #     - ./output:/app/output:ro
+
+volumes:
+  output:
+    driver: local

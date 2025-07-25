@@ -1,0 +1,26 @@
+# Real API Documentation Examples
+# These are publicly available API documentation pages that work well with the converter
+
+# Swagger Petstore - Classic API documentation example
+https://petstore.swagger.io/
+
+# JSONPlaceholder - Simple REST API
+https://jsonplaceholder.typicode.com/
+
+# HTTPBin - HTTP testing service
+https://httpbin.org/
+
+# ReqRes - REST API for testing
+https://reqres.in/
+
+# GitHub API Documentation (some endpoints)
+# Note: Add specific endpoint URLs here if needed
+# https://docs.github.com/en/rest/users/users#get-a-user
+
+# Stripe API Documentation examples (public docs)
+# https://stripe.com/docs/api/charges/create
+# https://stripe.com/docs/api/customers/create
+
+# Add your own API documentation URLs below:
+# https://your-api.com/docs/endpoint1
+# https://your-api.com/docs/endpoint2
